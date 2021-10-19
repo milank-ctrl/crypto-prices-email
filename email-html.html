@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: #0D0D0D;
+      font-family: "Helvetica", "Arial", sans-serif;
+    }
+
+    .grid-container {
+      display: grid;
+      padding: 10px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 5px;
+    }
+
+    .grid-item {
+      background-color: #01260A;
+      border: 1px solid #12732A;
+      padding: 10px;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    img {
+      float: left;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      display: inline;
+      padding-bottom: 10px;
+      color: #36BF4A;
+    }
+
+    ul {
+      margin: 20px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li {
+      border-top: 1px solid #ddd;
+      padding: 5px 0;
+      font-size: 14px;
+      color: #44F24F
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="grid-item">
+      <div class="header">
+        <img src="https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1547033579">
+        <h3> BTC</h3>
+      </div>
+      <ul>
+        <li><b>Price</b> $20121</li>
+        <li><b>24h</b> +20%</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <div class="header">
+        <img src="https://assets.coingecko.com/coins/images/279/thumb/ethereum.png?1595348880">
+        <h3> ETH</h3>
+      </div>
+      <ul>
+        <li><b>Price</b> $20121</li>
+        <li><b>24h</b> +20%</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <div class="header">
+        <img src="https://assets.coingecko.com/coins/images/975/thumb/cardano.png?1547034860">
+        <h3> ADA</h3>
+      </div>
+      <ul>
+        <li><b>Price</b> $20121</li>
+        <li><b>24h</b> +20%</li>
+      </ul>
+    </div>
+    <div class="grid-item">
+      <div class="header">
+        <img src="https://assets.coingecko.com/coins/images/4128/thumb/coinmarketcap-solana-200.png?1616489452">
+        <h3> SOL</h3>
+      </div>
+      </h3>
+      <ul>
+        <li><b>Price</b> $20121</li>
+        <li><b>24h</b> +20%</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
